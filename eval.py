@@ -3,7 +3,7 @@ import argparse
 import pandas as pd
 import numpy as np
 import config
-
+import torch
 parser = argparse.ArgumentParser(description="Eval a CARLA agent")
 parser.add_argument("--host", default="localhost", type=str, help="IP of the host server (default: 127.0.0.1)")
 parser.add_argument("--port", default=2000, type=int, help="TCP port to listen to (default: 2000)")
